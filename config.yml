@@ -28,7 +28,7 @@ jobs:
     steps:
       - checkout
       - persist_to_workspace:
-          root: /tmp/workspace  # from variable working_directory
+          root: /tmp/workspace  # from   variable working_directory
           paths:  # relative to root
             - id/pipelineid.txt 
       - run:
